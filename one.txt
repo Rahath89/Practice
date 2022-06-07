@@ -12,22 +12,3 @@ This is Fedat
 
 
 He loves Niyyat Mummy and Dady
-
-
-
-git init
-git status
-git add .
-git commit -m "file name"
-git restore "file name"
-git restore --staged "file name" 
-
-
-git log
-git reset "commit Id"
-git diff
-git branch "branch name"
-git branch -d "branch name"
-git checkout "branch name"
-git checkout -b branch name
-git merge "branch name"
