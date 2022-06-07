@@ -10,10 +10,15 @@ git restore --staged "file name"
 
 
 git log
-git reset "commit Id"
+git reset commit_Id
 git diff
 git branch "branch name"
 git branch -d "branch name"
 git checkout "branch name"
 git checkout -b branch name
 git merge "branch name"
+
+git log --oneline
+git checkout commit_ID
+history
+git push -f origin main
