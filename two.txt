@@ -12,13 +12,20 @@ git restore --staged "file name"
 git log
 git reset commit_Id
 git diff
-git branch "branch name"
-git branch -d "branch name"
-git checkout "branch name"
+git branch branch name
+git branch -d branch name
+git checkout branch name
 git checkout -b branch name
-git merge "branch name"
+git merge branch name
 
 git log --oneline
 git checkout commit_ID
 history
+
+git remote add origin https://github.com/Rahath89/Practice
+git push -u origin main
+git remote --v
 git push -f origin main
+
+git clone https://github.com/Rahath89/Practice.git
+git rm -r --cached myFolder
