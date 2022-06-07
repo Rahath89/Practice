@@ -1,0 +1,34 @@
+
+git init
+git status
+git add .
+git commit -m "file name"
+git restore "file name"
+git restore --staged "file name" 
+
+
+git log
+git reset commit_Id
+git diff
+git branch branch name
+git branch -d branch name
+git checkout branch name
+git checkout -b branch name
+git merge branch name
+
+git log --oneline
+git checkout commit_ID
+history
+
+git remote add origin https://github.com/Rahath89/Practice
+git push -u origin main
+git pull
+git push
+git remote -v
+git push -f origin main
+
+git clone https://github.com/Rahath89/Practice.git
+git rm -r --cached myFolder
+git rm -r filename
+git rm -r foldername
+fork
